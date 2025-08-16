@@ -1,3 +1,10 @@
+-- Notificação ao carregar script
+game.StarterGui:SetCore("SendNotification", {
+    Title = "GB HUB";
+    Text = "AutoFarm Level Loaded!";
+    Duration = 5; -- Tempo em segundos
+})
+
 if game.PlaceId == 2753915549 then
     World1 = true
 elseif game.PlaceId == 4442272183 then
@@ -11367,4 +11374,5 @@ OrionLib:MakeNotification({
     Content = "Loading Config Complete!!",
     Image = "rbxassetid://119980140458596",
     Time = 5
+
 })
